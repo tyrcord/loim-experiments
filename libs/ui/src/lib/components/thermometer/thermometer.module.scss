@@ -1,0 +1,37 @@
+.container {
+  // Fixe me make me responsive 
+  position: relative;
+  width: 128px;
+  height: 296px;
+}
+
+.gradient {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: height 0.5s ease-in-out, background-color 0.5s linear;
+}
+
+.cold {
+  background-color: var(--ui-thermometer-cold-color, #3ca469);
+}
+
+.warm {
+  background-color: var(--ui-thermometer-warm-color, #feae2e);
+}
+
+.hot {
+  background-color: var(--ui-thermometer-hot-color, #f23b27);
+}
+
+.graphic {
+  position: absolute;
+  z-index: 1;
+  background: url('../../../assets/pngs/temperature.png') -156px -37px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

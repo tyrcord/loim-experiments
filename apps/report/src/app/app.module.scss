@@ -1,0 +1,25 @@
+.app {
+  font-family: sans-serif;
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #424242;
+}
+
+.app :global(h2) {
+  text-align: center;
+  font-size: 32px;
+  margin: 48px 0;
+  color: #676767;
+}
+
+.app :global(h3) {
+  font-size: 32px;
+  margin: 24px 0;
+  color: #676767;
+}
+
+.temperatures {
+  display: flex;
+  justify-content: space-between;
+}
